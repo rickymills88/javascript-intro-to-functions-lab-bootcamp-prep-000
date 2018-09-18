@@ -19,21 +19,29 @@ function sayHiToGrandma(string) {
   uppercase.toUpperCase() === uppercase 
   
     var lowercase = 'hello!'
-     
     lowercase.toLowerCase() === lowercase // true
      
-    var mixedCase = 'Hi there!'
-     
+    var mixedCase = 'I love '
     mixedCase.toLowerCase() === mixedCase // false
-     
     mixedCase.toUpperCase() === mixedCase 
 
     if (string === uppercase) {
-      return string.toEqual
+      return ("YES INDEED!")
     } else if (string === lowercase) {
-      return string.toEqual
+      return ("I can't hear you!")
     } else if (string === mixedCase) {
-      return string.toEqual
+      return ("I love you, too.")
     }
 }
+
+
+it worked.. thank you.. my new code that passed!!
+function sayHiToGrandma(string) {
+ var lowercase = "hello"
+ var uppercase = "HELLO"
+ if (string.toLowerCase() === string)
+ return("I can't hear you!");
+ else if (string.toUpperCase() === string) 
+ return("YES INDEED!")
+  }
 
